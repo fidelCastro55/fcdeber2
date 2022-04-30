@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fcdeber2.login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="LOGIN" FontSize="25" HorizontalTextAlignment="Center" Margin="0,25,0,25"></Label>
+            <Entry Placeholder="USUARIO" x:Name="txtUser" Margin="20,15,20,15"></Entry>
+            <Entry Placeholder="CONTRASEÑA" x:Name="txtPassword"  Margin="20,15,20,15"></Entry>
+            <Button Text="INGRESAR" x:Name="btnLogin" Clicked="btnLogin_Clicked" Margin="20,15,20,15"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
